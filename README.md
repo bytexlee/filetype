@@ -14,13 +14,13 @@ A Go library for detecting file types by content (magic bytes) and filename. Zer
 ## Installation
 
 ```bash
-go get github.com/servicewall/filetype
+go get github.com/bytexlee/filetype
 ```
 
 ## Usage
 
 ```go
-import "github.com/servicewall/filetype"
+import "github.com/bytexlee/filetype"
 
 // Detect using both filename and content (recommended)
 ext := filetype.Detect("report.docx", fileBytes)

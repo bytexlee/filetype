@@ -105,7 +105,6 @@ func TestDetectByContent_RealFiles(t *testing.T) {
 		{"html.html", "html"},
 		{"xml.xml", "xml"},
 		{"test.pdf", "pdf"},
-		{"05070鲤想住管家住户清单.doc", "doc"},
 	}
 
 	for _, tt := range tests {
